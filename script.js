@@ -86,7 +86,7 @@ function inputNumber(number) {
 }
 
 function inputDecimal() {
-    if (!displayValue.includes('.')) { //************** ÖNEMLİ */ includes dizilerde arama yapmak için kullanılır. Contains ise class element gibi durumlarda kullanılır.
+    if (!displayValue.includes('.')) { //************** ÖNEMLİ */includes İfadenin var olup olmadığını kontrol eder True False değer döndürür. Dizilerde arama yapmak için kullanılır. Contains ise class element gibi durumlarda kullanılır.
         displayValue += '.';
     }
 }
